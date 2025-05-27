@@ -19,7 +19,7 @@ option2:  use my environment: weaver_bamboo
 
 Basic information
 
-/training
+/JOI_JetClassTagging
 
 	/model
 
@@ -73,9 +73,9 @@ RunRunRun
 
 	
 
-    mkdir training
-    cd training
+
     git clone https://github.com/xinzhuwang-wxz/JOI_JetClassTagging.git
+    cd JOI_JetClassTagging
 
 
 
@@ -91,7 +91,7 @@ RunRunRun
 
 then
 
-    source env,sh
+    source env.sh
 
 3: For JetClassTagging
 
@@ -129,8 +129,11 @@ b. when feature_type set to full, then config_path:
     config_path=`pwd`/yaml/JetClass_M11.yaml
 
 4: if every thing has done, just
-
+    cd sub
+    chmod +x train_CepcJetClass.sh
+    chmod +x Train_temp_class.sh
+    
     ./train_CepcJetClass.sh
 
-then the make_dir will created in /training  
+then the make_dir will created in /JOI_JetClassTagging 
 
