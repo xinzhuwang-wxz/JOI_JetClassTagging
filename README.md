@@ -129,6 +129,7 @@ b. when feature_type set to full, then config_path:
     config_path=`pwd`/yaml/JetClass_M11.yaml
 
 4: if every thing has done, just
+    
     cd sub
     chmod +x train_CepcJetClass.sh
     chmod +x Train_temp_class.sh
