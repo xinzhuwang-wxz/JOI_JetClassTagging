@@ -74,6 +74,7 @@ RunRunRun
 	
 
     mkdir training
+    cd training
     git clone https://github.com/xinzhuwang-wxz/JOI_JetClassTagging.git
 
 
